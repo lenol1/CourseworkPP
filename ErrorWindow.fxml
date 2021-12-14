@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="208.0" prefWidth="216.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.Controllers.ErrorWindow_Controller">
+   <children>
+      <Text layoutX="21.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Something went wrong :(">
+         <font>
+            <Font name="HoloLens MDL2 Assets" size="18.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutY="-4.0" prefHeight="36.0" prefWidth="244.0" style="-fx-background-color: #FD4B46; -fx-border-color: #000000;">
+         <children>
+            <Text fill="#1b1a1a" layoutX="102.0" layoutY="29.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Error">
+               <font>
+                  <Font name="HoloLens MDL2 Assets" size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <Button fx:id="CloseButton" layoutX="87.0" layoutY="149.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="Close" />
+   </children>
+</AnchorPane>

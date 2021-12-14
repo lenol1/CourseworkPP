@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="359.0" prefWidth="594.0" style="-fx-background-color: #7A90FB; -fx-border-color: #3E3289;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.Controllers.CreateRoom_Controller">
+    <children>
+        <AnchorPane layoutX="1.0" layoutY="67.0" prefHeight="295.0" prefWidth="594.0" style="-fx-background-color: #FFFFFF; -fx-border-color: #3E3289;" AnchorPane.bottomAnchor="-2.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="66.0">
+            <children>
+                <Label layoutX="48.0" layoutY="68.0" prefHeight="20.0" prefWidth="221.0" text="Enter capacity of the room:">
+                    <font>
+                        <Font name="HoloLens MDL2 Assets" size="18.0" />
+                    </font>
+                </Label>
+                <Button fx:id="NextButton" layoutX="468.0" layoutY="236.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="80.0" style="-fx-border-color: #9686F8;" text="Next" textFill="#231b57">
+                    <font>
+                        <Font name="HoloLens MDL2 Assets" size="16.0" />
+                    </font>
+                </Button>
+              <Button fx:id="BackButton" layoutX="48.0" layoutY="236.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="80.0" style="-fx-border-color: #9686F8; -fx-background-color: #46403B;" text="Back" textFill="#d0caf8">
+                  <font>
+                      <Font name="HoloLens MDL2 Assets" size="16.0" />
+                  </font>
+              </Button>
+            <Label layoutX="48.0" layoutY="125.0" prefHeight="20.0" prefWidth="285.0" text="Enter maximum amount of money:">
+               <font>
+                  <Font name="HoloLens MDL2 Assets" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="CapacityField" layoutX="269.0" layoutY="66.0" />
+            <TextField fx:id="AmountField" layoutX="333.0" layoutY="123.0" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="191.0" layoutY="28.0" prefHeight="40.0" prefWidth="323.0" text="Welcome to manager`s menu" textFill="#4d0b0b" AnchorPane.bottomAnchor="336.0" AnchorPane.leftAnchor="191.0" AnchorPane.rightAnchor="190.0" AnchorPane.topAnchor="28.0">
+            <font>
+                <Font name="HoloLens MDL2 Assets" size="24.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

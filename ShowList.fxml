@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #FF837F; -fx-border-color: #3E3289;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo2.Controllers.ShowList_Controller">
+    <children>
+        <Button fx:id="ExitButton" layoutX="606.0" layoutY="356.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="80.0" style="-fx-border-color: #9686F8; -fx-background-color: #46403B;" text="Exit" textFill="#d0caf8">
+            <font>
+                <Font name="HoloLens MDL2 Assets" size="16.0" />
+            </font>
+        </Button>
+          <TableView fx:id="Table" layoutX="47.0" layoutY="91.0" prefHeight="263.0" prefWidth="612.0" style="-fx-background-color: #FFACA9;" AnchorPane.bottomAnchor="52.0" AnchorPane.leftAnchor="47.0" AnchorPane.rightAnchor="47.0" AnchorPane.topAnchor="91.0">
+              <columns>
+                  <TableColumn fx:id="ToyName" prefWidth="104.0" text="Name" />
+                  <TableColumn fx:id="ToyType" prefWidth="113.0" text="Type" />
+                  <TableColumn fx:id="Cost" prefWidth="102.0" text="Cost" />
+                  <TableColumn fx:id="SizeCategory" prefWidth="113.0" text="Size Category" />
+                  <TableColumn fx:id="Number" prefWidth="109.0" text="Number" />
+              </columns>
+          </TableView>
+      <AnchorPane layoutX="48.0" layoutY="52.0" prefHeight="30.0" prefWidth="115.0" style="-fx-background-color: #FFACA9; -fx-border-color: #FF837F;">
+         <children>
+                <Label layoutX="3.0" layoutY="4.0" text="Toys in room:">
+                    <font>
+                        <Font name="HoloLens MDL2 Assets" size="18.0" />
+                    </font>
+                </Label>
+         </children>
+      </AnchorPane>
+      <TextArea fx:id="Info" editable="false" layoutX="493.0" layoutY="40.0" prefHeight="40.0" prefWidth="159.0" style="-fx-background-color: #9998FF;">
+         <font>
+            <Font name="HoloLens MDL2 Assets" size="14.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="270.0" layoutY="14.0" prefHeight="30.0" prefWidth="160.0" text="Game Room" textFill="#231b57">
+         <font>
+            <Font name="Ink Free" size="32.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
