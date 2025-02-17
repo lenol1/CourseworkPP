@@ -11,7 +11,7 @@ public class DataBaseConnection {
     protected static final String dbhost = "localhost";
     protected static final String dbport = "3306";
     protected static final String dbuser = "root";
-    protected static final String dbpassword = "123456";
+    protected static final String dbpassword = "#########";
     protected static final String dbname = "toys";
 
 
